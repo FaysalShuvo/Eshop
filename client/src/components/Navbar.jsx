@@ -5,7 +5,6 @@ import styled from "styled-components";
 
 const Container = styled.div`
   height: 60px;
-  border: 1px solid gray;
 `;
 
 const Wrapper = styled.div`
@@ -41,10 +40,6 @@ const Input = styled.input`
 const Center = styled.div`
   flex: 1;
   text-align: center;
-
-  /* display: flex;
-   justify-content: center;
-  align-items: center; */
 `;
 
 const Logo = styled.h1`
