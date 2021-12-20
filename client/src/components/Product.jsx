@@ -16,7 +16,6 @@ const Info = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
   transition: all 0.5s ease;
 `;
 
@@ -70,7 +69,7 @@ const Icon = styled.div`
   justify-content: center;
   margin: 10px;
   transition: all 0.5s ease;
-
+  cursor: pointer;
   &:hover {
     background-color: crimson;
     transform: scale(1.1);
