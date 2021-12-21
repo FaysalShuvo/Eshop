@@ -54,8 +54,8 @@ const Register = () => {
           <Input placeholder="email" />
           <Input placeholder="password" />
           <Input placeholder="confirm password" />
+          <Button>CREATE</Button>
         </Form>
-        <Button>CREATE</Button>
       </Wrapper>
     </Container>
   );
