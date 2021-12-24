@@ -3,6 +3,7 @@ const app = express();
 const mongoose = require("mongoose");
 require("dotenv").config();
 const authRouter = require("./routes/auth");
+const userRouter = require("./routes/user");
 
 // middleware
 app.use(express.json());
@@ -17,6 +18,7 @@ try {
 
 // routes
 app.use("/api/auth/", authRouter);
+app.use("/api/user/", userRouter);
 
 app.listen(process.env.PORT || 4000, () => {
   console.log("post is 4000");
